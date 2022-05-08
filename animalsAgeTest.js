@@ -1,7 +1,7 @@
 "use strict";
 // Questions are found in the README file, answers are numbered within the code
 
-const juliaDogs = [5, 2, 4, 1, 15, 8, 31];
+const juliaDogs = [5, 2, 4, 1, 15, 8, 3];
 const katieDogs = [16, 6, 10, 5, 6, 1, 4];
 const ages = [];
 
@@ -9,7 +9,7 @@ const func = function (ages) {
   ages = [...juliaDogs, ...katieDogs];
   const calcAverageHumanAge = ages.map(function (age) {
     // 1)
-    if (age >= 2) {
+    if (age <= 2) {
       return 2 * age;
     } else {
       return 16 + age * 4;
