@@ -23,6 +23,8 @@ const func = function (ages) {
   //   3)
   const aveAge = calcAverageHumanAge.reduce((acc, curr) => acc + curr);
   console.log(aveAge / ages.length);
+  const aveAge = over18.reduce((acc, curr) => acc + curr);
+  console.log(aveAge / over18.length);
   return calcAverageHumanAge;
 };
 
